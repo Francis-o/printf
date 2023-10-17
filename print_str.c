@@ -15,5 +15,5 @@ int print_str(char *str)
 		_putchar(str[i]);
 		i++;
 	}
-	return (i); /* i is character length of string */
+	return (i);
 }
