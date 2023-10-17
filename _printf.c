@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _printf _ this program emulates the c libary printf function
+ * _printf - this program emulates the c libary printf function
  * @format: string argument
  * Return: character length
  */
@@ -9,7 +9,7 @@
 int _printf(const char *format, ...)
 {
 	int char_num = 0; /* character lenth of string */
-	int h = 0; 
+	int h = 0;
 	va_list args;
 
 	va_start(args, format);

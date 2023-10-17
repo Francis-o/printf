@@ -2,7 +2,7 @@
 
 /**
  * print_str - prints string
- * @val: arguement
+ * @str: arguement
  * Return: string character length
  */
 

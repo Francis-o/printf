@@ -2,7 +2,7 @@
 
 /**
  *_putchar - prints single character
- *c: character to print
+ *@c: character to print
  *Return: character
  */
 
