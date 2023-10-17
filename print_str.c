@@ -1,0 +1,19 @@
+#include "main.h"
+
+/**
+ * print_str - prints string
+ * @val: arguement
+ * Return: string character length
+ */
+
+int print_str(char *str)
+{
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	return (i); /* i is character length of string */
+}
