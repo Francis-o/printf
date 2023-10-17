@@ -33,6 +33,10 @@ int _printf(const char *format, ...)
 			{
 				char_num += print_char('%');
 			}
+			else if ((format[h + 1] == 'd') || (format[h + 1] == 'i'))
+			{
+				char_num += print_int(va_arg(args, int));
+			}
 			h++;
 		}
 
