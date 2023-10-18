@@ -10,22 +10,10 @@ int print_str(char *str)
 {
 	int i = 0;
 
-	if (str = NULL)
+	while (str[i] != '\0')
 	{
-		str = "(null)";
-		while (str[i] != '\0')
-		{
-			_putchar(str[i]);
-			i++;
-		}
-		return (i);
+		_putchar(str[i]);
+		i++;
 	}
-	else 
-	{
-		while (str[i] != '\0')
-		{
-			_putchar(str[i]);
-			i++;
-		}
-		return (i);
-	}
+	return (i);
+}
